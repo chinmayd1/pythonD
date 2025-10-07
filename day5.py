@@ -63,3 +63,7 @@ print(len(country))
 numA = [11,22,33]
 print(min(numA)) # 11
 print(max(numA)) # 33
+
+
+names  = ["chinmay","ram","sham"]
+print("chinmay" in names)
