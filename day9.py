@@ -75,10 +75,7 @@ print(txt6.center(6,'.'))
 
 
 text7 = "chinmay@deshpande@7709191441"
-# ["chinmay","deshpande",7709192441]
-# []"chinmay","deshpande","7709191441"]
 print(text7.split("@"))
-
 
 txt8 =  " goa "
 print(len(txt8))
@@ -90,3 +87,34 @@ print(len(txt9.lstrip()))
 
 txt9 =  " goa "
 print(len(txt9.strip()))
+
+# remove prefix 
+txt16 = "unhappy"
+q1 = txt16.removeprefix('un')
+print(q1)
+
+# remove suffice 
+txt17 = "reading.txt"
+txt17.removesuffix(".txt")
+
+# replace()
+txt18 = "i love dogs"
+q2  = txt18.replace("dogs","cats")
+print(q2)
+
+# swapcase()
+print("chinmay".swapcase())
+
+#title()
+info = "i am learning javascript"
+print(info.title())
+
+# zfill
+txt20 = "42" # 00042
+txt21 = "342" #00342
+print(txt21.zfill(5))
+
+# partition()
+txt22 = "chinmay@deshpande.com"
+#("chinmay","@","deshpande.com")
+print(txt22.partition("@"))
