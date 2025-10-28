@@ -67,11 +67,16 @@ for x in range(5,0,-1): #4 #3 #2
     if x == 2:
         break
 
-
 # continue statement with for loop
-
 for x in range(1,6): #2 #3 #4 #5
     if x == 3:
         continue
     print(x) #1 #2 #4 #5
+
+
+for x in range(5,0,-1): #4 #3 #2 #1
+    if x == 3:
+        continue
+    print(x) #5 #4 #2 #1
+
 

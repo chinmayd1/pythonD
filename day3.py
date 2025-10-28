@@ -63,3 +63,12 @@ while i1 < len(animals):
     #print(i1) # 0 #1 #2
     print(animals[i1])
     i1 = i1 + 1 #1 #2 #3
+
+
+# list 
+# Gym 
+# action --> exercise 
+# return --> health
+
+
+

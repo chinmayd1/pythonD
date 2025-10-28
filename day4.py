@@ -54,3 +54,5 @@ print(country)
 country = ["india","pakistan","srilanka","bangladesh"]
 country.insert(2,"china")
 print(country)
+
+# list , dict , tuple , set , string 

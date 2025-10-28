@@ -102,11 +102,9 @@ while(i1 < len(numbers)):
     print(numbers[i1])
     i1 = i1 + 1
 
-
 # for Each
 for a in numbers:
     print(a)
-
 
 numbersB = (11,22,33,11)
 q = numbersB.count(11)
