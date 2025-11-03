@@ -69,11 +69,8 @@ print(e8)
 
 
 # function as a return type 
-
-
 def multiplication():
     return lambda x,y:x*y
-
 q5 = multiplication()
 print(q5)
 
