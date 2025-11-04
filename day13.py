@@ -68,3 +68,8 @@ setA  = {11,22}
 
 setA.discard(22)
 print(setA)
+
+# discard() and remove()
+
+# ISTQB 
+# ISTQB - AI
