@@ -44,6 +44,8 @@ for x in students:
 for x in students:
     total = x['marks']['maths'] +x['marks']['science']+x['marks']['english']
     total = str(total)
-    print(x['firstName']+" "+total)
+    print(x['firstName']+ " "+total)
 
+# genAI
+# append value to list
 

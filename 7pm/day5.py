@@ -66,9 +66,7 @@ if q1 > q2:
 else:
     print("q2 is greater")
 
-
 # program 6
-
 x1 = 10
 x2 = 50
 x3 = 300
