@@ -100,3 +100,10 @@ print(info33)
 info33['city'] = "nagpur"
 print(info33)
 
+dictOne = dict.fromkeys(['name',"age","rollNo"])
+print(dictOne)
+
+dictOne['name'] = "amol"
+dictOne['age'] = 12
+dictOne['rollNo'] =23
+print(dictOne)
