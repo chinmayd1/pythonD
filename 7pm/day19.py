@@ -68,3 +68,111 @@ info2 = {
 for key in info2:
     print(key,info2[key])
 # methods ?
+
+# dict methods 
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+print(student)
+print(type(student))
+
+# retrive value
+e = student.get('firstName')
+print(e)
+
+# program 2
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+student.update({"city":"pune","language":"hindi"})
+print(student)
+
+# program 3
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+for key in student.keys():
+    print(key)
+
+for val in student.values():
+    print(val)
+    
+for (k,v) in student.items():
+    print(k,v)
+
+# program 4
+
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+e5 = student.clear()
+print(e5)
+print(student)
+
+
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+student.pop('age')
+print(student)
+student.popitem()
+print(student)
+
+
+
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+
+info2 = dict.fromkeys(['fn','ln','city','language'])
+print(info2)
+
+
+
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+
+student2 = student.copy()
+student2.update({"city":"pune"})
+print(student)
+print(student2)
+
+student = {  
+    "firstName":"amol",
+    "lastName":"rao",
+    "age":12,
+    "rollNo":45
+    
+}
+e2 = student.setdefault('age',44)
+print(e2)
+print(student)
